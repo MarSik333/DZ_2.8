@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="one">
+            <div id="editable" contenteditable="true">Текст, який можна редагувати</div>
+        </div>
+
+        <div class="two">
+            <div class="table-container">
+                <div class="sort-buttons">
+                    <button onclick="sortTable('name')">Sort by Name</button>
+                    <button onclick="sortTable('age')">Sort by Age</button>
+                    <button onclick="sortTable('country')">Sort by Country</button>
+                </div>
+                <ul id="my-table">
+                    <li>
+                        <span>Name</span>
+                        <span>Age</span>
+                        <span>Country</span>
+                    </li>
+                    <li>
+                        <span>Іван</span>
+                        <span>25</span>
+                        <span>Парашка</span>
+                    </li>
+                    <li>
+                        <span>Aня</span>
+                        <span>33</span>
+                        <span>Канада</span>
+                    </li>
+                    <li>
+                        <span>Ігор</span>
+                        <span>20</span>
+                        <span>Україна</span>
+                    </li>
+                    <li>
+                        <span>Олег</span>
+                        <span>15</span>
+                        <span>США</span>
+                    </li>
+                    <li>
+                        <span>Віка</span>
+                        <span>36</span>
+                        <span>італія</span>
+                    </li>
+                    <li>
+                        <span>Дарья</span>
+                        <span>24</span>
+                        <span>ізраїль</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

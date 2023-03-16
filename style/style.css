@@ -1,0 +1,30 @@
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.two .table-container {
+  width: 50%;
+  border: 1px solid black;
+  padding: 10px;
+}
+.two .table-container #my-table {
+  list-style: none;
+  padding: 0;
+}
+.two .table-container #my-table li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.two .table-container #my-table li span {
+  flex: 1;
+  text-align: center;
+}
+.two .table-container #my-table li:first-child {
+  font-weight: bold;
+}
+.two .table-container #my-table li:nth-child(odd) {
+  background-color: #f2f2f2;
+}/*# sourceMappingURL=style.css.map */
